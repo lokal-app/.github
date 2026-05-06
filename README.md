@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://your-logo-url-here.png" alt="Lokal" width="80" />
+  <img src="https://cdn.prod.website-files.com/68d0d8ab4e4fc8f255a1ea6c/68dba348b6f474e6b569e9d0_lokal-icon.svg" alt="Lokal" width="72" />
   <h1>Lokal Engineering</h1>
   <p><strong>Building the internet for Bharat — one product at a time.</strong></p>
 
@@ -12,9 +12,9 @@
 
 ## Who we are
 
-Lokal is a multi-product platform built for Tier 2 and Tier 3 India — the next billion users coming online for the first time. We build products across **jobs**, **astrology**, **education**, **English learning**, and **matrimony**, serving users in their own language, on their own terms.
+Lokal is a multi-product platform built for Tier 2 and Tier 3 India — the next billion users coming online for the first time. We build products across **jobs**, **astrology**, **education**, **English learning**, **mental wellness**, and **matrimony**, serving users in their own language, on their own terms.
 
-Our engineering team works at the intersection of scale and simplicity: building systems that are robust enough to handle millions of users while remaining accessible to people with low-end devices and patchy connectivity.
+Our engineering team works at the intersection of scale and simplicity: building systems robust enough to handle millions of users while remaining accessible to people with low-end devices and patchy connectivity.
 
 ---
 
@@ -23,52 +23,51 @@ Our engineering team works at the intersection of scale and simplicity: building
 | Product | Description |
 |---|---|
 | 🏢 **Lokal Jobs / Sahi Jobs** | Hyperlocal job discovery for blue-collar India |
+| 🧘 **Eaze** | Mental wellness platform with psychologists, therapists, and trained listeners |
 | ⭐ **AstroLokal** | Astrology and spiritual content platform |
-| 📺 **GyanTV** | Regional education content |
+| 📺 **GyanTV** | Regional edutainment — 1000+ short videos in Telugu, Tamil, and Kannada |
 | 🗣️ **Sahi English** | AI-powered English learning for job seekers |
 | 💍 **Matrimony** | Community-first matrimonial platform |
+| 🌾 **AgriLokal** | Verified agronomists for farmers, on demand |
+| 💬 **Dostt** | Peer support and meaningful conversations in your own language |
 
 ---
 
 ## Our stack
 
-We're a **Python/Django** backend shop running on **AWS EKS (Kubernetes)**, with native/react native Android clients and AI features. A few things we work with day-to-day:
+We're a **Python/Django** backend shop running on **AWS EKS (Kubernetes)**, with native and React Native mobile clients. A few things we work with day-to-day:
 
-- **Backend**: Django, Celery, Django Channels, PostgreSQL, Redis, ScyllaDB, Clickhouse, Redpanda
+- **Backend**: Django, Celery, Django Channels, PostgreSQL, Redis, ScyllaDB, ClickHouse, Redpanda
 - **Infrastructure**: Kubernetes (EKS), Helm, ArgoCD, KEDA
-- **AI/ML**: Custom LLM pipelines, Trained/Fine-tuned models on our data, Live bots
-- **Mobile**: Android (CMP), Android/iOS (React Native) optimised for low-end devices and 2G/3G networks
+- **AI/ML**: Custom LLM pipelines, fine-tuned models on our own data, live AI bots
+- **Mobile**: Android (CMP), Android/iOS (React Native) — optimised for low-end devices and 2G/3G networks
 - **CI/CD**: GitHub Actions, Amazon ECR, Devtron, Jenkins
 
 ---
 
-## Engineering principles
+## Engineering philosophy
+
+**Frugality with high performance.** We default to open source and build in-house before reaching for a managed service or external tool. Every rupee saved on infrastructure is a rupee we can invest in the product. We believe that with the right engineering, you don't have to choose between cost and performance.
 
 **Simple over clever.** We build for a user who may be opening an app for the first time. Every millisecond, every byte, every tap matters more at our scale and audience than it does anywhere else.
 
-**Ship, learn, iterate.** We move fast — from vibe-coded prototypes to production Kubernetes deployments — but we instrument everything so we know what's working.
+**Ship, learn, iterate.** We move fast — from prototype to production Kubernetes deployments — but we instrument everything so we know what's working.
 
-**Bharat-first thinking.** Designing for Tier 2/3 India means designing for low memory, low bandwidth, and high trust requirements. We treat these as engineering constraints, not afterthoughts.
+**Bharat-first thinking.** Designing for Tier 2/3 India means designing for low memory, low bandwidth, and high trust requirements. We treat these as core engineering constraints, not afterthoughts.
 
 ---
 
 ## Engineering blog
 
-We write about what we actually build — Django ORM optimizations, Evaluating and using new databases, Data engineering, Kubernetes deployments, AI pipelines, and the messy reality of scaling for new-to-internet users.
+We write about what we actually build — Django ORM optimizations, evaluating and adopting new databases, data engineering, Kubernetes deployments, AI pipelines, and the messy reality of scaling for new-to-internet users.
 
 📖 **[Read our engineering blog on Medium →](https://medium.com/lokal-engineering)**
 
-Recent topics we've covered (and plan to cover):
-- Deploying Remotion video pipelines on EKS with SQS + KEDA autoscaling
-- JupyterHub on EKS with Cognito SSO and EFS persistent storage
-- Django ORM optimizations for batched Firebase ID lookups
-- Building AI Coach Riya for Sahi English using AWS Bedrock
-
 ---
 
-## Open source & contributions
+## Open source & in-house first
 
-Most of our core product code is private, but we actively use and contribute to open source tooling. We believe in giving back to the ecosystem that helps us move fast.
+Most of our core product code is private, but we lean heavily on open source tooling and build solutions in-house wherever we can. We believe in giving back to the ecosystem that helps us move fast.
 
 ---
 
@@ -76,7 +75,7 @@ Most of our core product code is private, but we actively use and contribute to 
 
 We're a small, high-output team that cares deeply about the problem we're solving. If building for the next billion internet users excites you, we'd love to talk.
 
-🌐 [lokalapps.com](https://lokalapps.com) · 📩 Reach out via our website or LinkedIn
+🌐 [lokalapps.com](https://www.lokalapps.com/careers) · 📩 Reach out via our website or LinkedIn
 
 ---
 
